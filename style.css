@@ -294,3 +294,40 @@ width:40px;
 border-radius:50%;
 }
 
+/* questions */
+
+.questions{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 120px;
+background:#f7f7f7;
+}
+
+.q-left{
+width:45%;
+}
+
+.q-left h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.q-left p{
+color:#777;
+margin-bottom:20px;
+}
+
+.q-left button{
+background:#0e4c6b;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:8px;
+}
+
+.q-right img{
+width:300px;
+border-radius:10px;
+}
+
