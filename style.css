@@ -21,7 +21,7 @@ gap:10px;
 font-weight:600;
 }
 
-.circle{
+.circle1{
 width:35px;
 height:35px;
 background:#1c4b66;
@@ -39,7 +39,10 @@ text-decoration:none;
 color:#555;
 font-size:14px;
 }
-
+nav a:hover{
+    font-size: 20px;
+    color: lightgreen;
+}
 .hero{
 display:flex;
 justify-content:space-between;
@@ -130,7 +133,7 @@ position:absolute;
 top:20px;
 }
 
-.person{
+.person1{
 width:360px;
 position:relative;
 z-index:2;
@@ -294,7 +297,6 @@ width:40px;
 border-radius:50%;
 }
 
-/* questions */
 
 .questions{
 display:flex;
@@ -331,3 +333,57 @@ width:300px;
 border-radius:10px;
 }
 
+
+
+footer{
+background:#0e4c6b;
+color:white;
+padding:80px 120px;
+}
+
+.footer-top{
+display:flex;
+justify-content:space-between;
+margin-bottom:60px;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:bold;
+}
+
+.circle{
+width:35px;
+height:35px;
+background:white;
+color:#0e4c6b;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.links{
+display:flex;
+gap:80px;
+}
+
+.links h4{
+margin-bottom:15px;
+}
+
+.lis{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us div{
+    display: flex;
+    gap: 40px;
+}
